@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer Portfolio</title>
+    <!-- Link to Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-500 p-4 text-white">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl font-bold">Vaishnavi Salunke</h1>
+                <p class="text-sm">Software Engineer with 1 Year Experience in Java</p>
+            </div>
+            <div class="space-x-4">
+                <a href="#home" class="hover:underline">Home</a>
+                <a href="#about-me" class="hover:underline">About Me</a>
+                <a href="#skills" class="hover:underline">Skills</a>
+                <a href="#projects" class="hover:underline">Projects</a>
+                <a href="#contact me" class="hover:underline">Contact me</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Home) -->
+    <section id="home" class="bg-gray-800 text-white text-center py-20">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-2">Welcome to My Portfolio</h2>
+            <p class="text-lg">Passionate software engineer with expertise in Java</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me" class="py-16">
+        <div class="container mx-auto flex items-center">
+            <div class="w-1/2">
+                <!-- Add your image URL or file path -->
+                <img src="img1/self.jpeg" alt="Your Name" class="rounded-full w-64 h-64 object-cover mx-auto">
+            </div>
+
+            <div class="w-1/2 pl-8">
+                <h2 class="text-3xl font-bold mb-4">About Me</h2>
+                <p class="text-gray-600">
+                    I am a dedicated software engineer with 1 year of experience in Java development. My passion lies in creating efficient and scalable software solutions. I have a strong foundation in Java and have worked on projects ranging from web applications to backend systems. Constantly learning and adapting to new technologies is what drives me in the ever-evolving field of software development.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-gray-100 py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Skills</h2>
+            <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                <li class="bg-white p-4 rounded shadow">
+                    <span class="text-lg font-semibold">Java</span>
+                </li>
+                <li class="bg-white p-4 rounded shadow">
+                    <span class="text-lg font-semibold">Spring Boot</span>
+                </li>
+                <li class="bg-white p-4 rounded shadow">
+                    <span class="text-lg font-semibold">Hibernate</span>
+                </li>
+                <li class="bg-white p-4 rounded shadow">
+                    <span class="text-lg font-semibold">JavaScript</span>
+                </li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Projects</h2>
+            
+            <!-- Sample Project 1 -->
+            <div class="mb-8">
+                <h3 class="text-xl font-bold">Project 1: Expense Tracker Application </h3>
+                <p class="text-gray-600">
+
+                    Create a web-based or mobile application to track and manage personal expenses.
+                    Utilize Java for the backend logic and database interactions.
+                    Implement features such as adding expenses, categorizing them, and generating reports.</p>
+            </div>
+
+           <!-- Sample Project 2 -->
+           <div class="mb-8">
+            <h3 class="text-xl font-bold">Project 2: Task Management System </h3>
+            <p class="text-gray-600">Develop a task management system with features like creating tasks, setting deadlines, and marking tasks as completed.
+                Use Java and a web framework like Spring Boot for the backend.
+                Incorporate user authentication and authorization for secure task management.</p>
+        </div>
+
+        <!-- Add more projects as needed -->
+    </div>
+</section>
+ <!-- Contact Section -->
+ <section class="bg-gray-100 py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+        <form action="#" method="post" class="max-w-lg mx-auto">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-800">Name:</label>
+                <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-800">Email:</label>
+                <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-gray-800">Message:</label>
+                <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 text-white px-6 py-2 rounded">Send Message</button>
+        </form>
+    </div>
+</section>
+<!-- Footer Section -->
+<footer class="bg-gray-800 text-white text-center py-4">
+    <div class="container mx-auto">
+        <p>&copy; 2024 Vaishnavi Salunke. All Rights Reserved.</p>
+        <p>Email: vaishusalunke@gmail.com</p>
+        <p>Phone: +123 456 7890</p>
+    </div>
+</footer>
